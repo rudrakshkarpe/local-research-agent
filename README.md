@@ -211,3 +211,7 @@ streamlit-deep-researcher/
 ## 🚀 Recent Updates
 - Enhanced research capabilities
 - Improved performance and reliability
+
+## 🚀 Recent Updates
+- Enhanced research capabilities
+- Improved performance and reliability
