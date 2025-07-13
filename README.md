@@ -1,7 +1,21 @@
 # 🔬 Local Deep Research Agent Platform
 
-## ✨ Features
+<div align="center">
 
+**A powerful local research platform with AI-driven deep research capabilities**
+
+[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://python.org)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)](https://streamlit.io)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+</div>
+
+---
+
+<details>
+<summary><h2>✨ Features</h2></summary>
+
+### 🔍 Core Research Capabilities
 - **Deep Research Workflow**: Multi-loop research process with query generation, web search, summarization, and reflection
 - **Local LLM Integration**: Works with Ollama and LMStudio for complete privacy
 - **Multiple Search APIs**: DuckDuckGo, Tavily, Perplexity, etc.
@@ -14,48 +28,57 @@
 - **Configuration Management**: Easy LLM and search API configuration
 - **Export Capabilities**: Download results in Markdown or text format
 
-## 🚀 Quick Start
+</details>
 
-### Prerequisites
+---
 
-- Python 3.11+
-- Ollama or LMStudio running locally
-- Git
+<details>
+<summary><h2>🚀 Quick Start</h2></summary>
 
-### Installation
+### 📋 Prerequisites
 
-1. **Clone and navigate to the directory**
-   ```bash
-   cd streamlit-deep-researcher
-   ```
+| Requirement | Version | Description |
+|-------------|---------|-------------|
+| 🐍 Python | 3.11+ | Core runtime environment |
+| 🦙 Ollama/LMStudio | Latest | Local LLM provider |
+| 📦 Git | Latest | Version control |
 
-2. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
+### 🛠️ Installation Steps
 
-3. **Configure environment**
-   ```bash
-   # Copy and edit the environment file
-   cp .env.example .env
-   # Edit .env with your settings
-   ```
+```bash
+# 1. Clone and navigate to the directory
+cd streamlit-deep-researcher
 
-4. **Run the application**
-   ```bash
-   streamlit run app.py
-   ```
+# 2. Install dependencies
+pip install -r requirements.txt
 
-5. **Open your browser**
-   - Navigate to `http://localhost:8501`
-   - Configure your LLM settings in the sidebar
-   - Start researching!
+# 3. Configure environment
+cp .env.example .env
+# Edit .env with your settings
 
-## ⚙️ Configuration
+# 4. Run the application
+streamlit run app.py
 
-### LLM Setup
+# 5. Open your browser at http://localhost:8501
+```
 
-#### Ollama (Recommended)
+### 🎯 First Steps
+1. Navigate to `http://localhost:8501`
+2. Configure your LLM settings in the sidebar
+3. Start researching!
+
+</details>
+
+---
+
+<details>
+<summary><h2>⚙️ Configuration</h2></summary>
+
+### 🦙 LLM Setup
+
+<details>
+<summary><strong>Ollama (Recommended)</strong></summary>
+
 ```bash
 # Install Ollama
 curl -fsSL https://ollama.ai/install.sh | sh
@@ -69,15 +92,22 @@ ollama pull llama3.2
 ollama serve
 ```
 
-#### LMStudio
+</details>
+
+<details>
+<summary><strong>LMStudio</strong></summary>
+
 1. Download and install LMStudio
 2. Load a model in LMStudio
 3. Start the local server
 4. Configure the base URL in the sidebar
 
-### Environment Variables
+</details>
 
-Edit `.env` file:
+### 🔧 Environment Variables
+
+<details>
+<summary><strong>Configuration File (.env)</strong></summary>
 
 ```env
 # LLM Settings
@@ -99,119 +129,198 @@ PERPLEXITY_API_KEY=""
 EMBEDDING_MODEL="all-MiniLM-L6-v2"
 ```
 
-## 🎯 Usage Guide
+</details>
 
-### Starting Research
+</details>
 
-1. **Configure LLM**: Use the sidebar to set up your local LLM
-2. **Test Connection**: Click "Test LLM Connection" to verify setup
-3. **Enter Research Topic**: Type your research question in the main input
-4. **Start Research**: Click "🚀 Start Research" and watch the progress
-5. **View Results**: Explore the comprehensive research summary
+---
 
-### Research Examples
+<details>
+<summary><h2>🎯 Usage Guide</h2></summary>
 
-- "Latest developments in quantum computing 2024"
-- "Climate change impact on agriculture"
-- "Artificial intelligence safety research"
-- "Renewable energy storage technologies"
-- "CRISPR gene editing recent advances"
+### 🚀 Starting Research
 
-### Advanced Features
+| Step | Action | Description |
+|------|--------|-------------|
+| 1️⃣ | **Configure LLM** | Use the sidebar to set up your local LLM |
+| 2️⃣ | **Test Connection** | Click "Test LLM Connection" to verify setup |
+| 3️⃣ | **Enter Research Topic** | Type your research question in the main input |
+| 4️⃣ | **Start Research** | Click "🚀 Start Research" and watch the progress |
+| 5️⃣ | **View Results** | Explore the comprehensive research summary |
 
-#### Research History
+### 💡 Research Examples
+
+<details>
+<summary><strong>Sample Research Topics</strong></summary>
+
+- 🔬 "Latest developments in quantum computing 2024"
+- 🌱 "Climate change impact on agriculture"
+- 🤖 "Artificial intelligence safety research"
+- ⚡ "Renewable energy storage technologies"
+- 🧬 "CRISPR gene editing recent advances"
+
+</details>
+
+### 🔧 Advanced Features
+
+<details>
+<summary><strong>Research History</strong></summary>
+
 - **Automatic Saving**: All research sessions are saved automatically
 - **Semantic Search**: Find similar research using vector embeddings
 - **Session Management**: Load, view, and manage previous research
 
-#### Configuration Options
+</details>
+
+<details>
+<summary><strong>Configuration Options</strong></summary>
+
 - **Research Depth**: Adjust number of research loops (1-10)
 - **Search APIs**: Choose between different search providers
 - **LLM Models**: Switch between different local models
 - **Embedding Models**: Select sentence transformer models
 
-## 📊 Architecture
+</details>
+
+</details>
+
+---
+
+<details>
+<summary><h2>📊 Architecture</h2></summary>
+
+### 📁 Project Structure
 
 ```
 streamlit-deep-researcher/
-├── app.py                          # Main Streamlit application
-├── requirements.txt                # Python dependencies
-├── .env                           # Configuration file
-├── config/
+├── 📱 app.py                          # Main Streamlit application
+├── 📋 requirements.txt                # Python dependencies
+├── ⚙️ .env                           # Configuration file
+├── 📂 config/
 │   ├── __init__.py
-│   └── settings.py                # Configuration management
-├── research/
+│   └── ⚙️ settings.py                # Configuration management
+├── 📂 research/
 │   ├── __init__.py
-│   ├── graph.py                   # LangGraph research workflow
-│   ├── state.py                   # Research state management
-│   ├── utils.py                   # Search utilities
-│   ├── prompts.py                 # LLM prompts
-│   └── llm_providers.py           # Ollama/LMStudio integration
-├── storage/
+│   ├── 🔄 graph.py                   # LangGraph research workflow
+│   ├── 📊 state.py                   # Research state management
+│   ├── 🔍 utils.py                   # Search utilities
+│   ├── 💬 prompts.py                 # LLM prompts
+│   └── 🤖 llm_providers.py           # Ollama/LMStudio integration
+├── 📂 storage/
 │   ├── __init__.py
-│   └── vector_store.py            # Vector embeddings storage
-├── components/
+│   └── 🗄️ vector_store.py            # Vector embeddings storage
+├── 📂 components/
 │   ├── __init__.py
-│   ├── progress_display.py        # Progress visualization
-│   └── sidebar.py                 # Configuration sidebar
-└── assets/
-    └── research_history.db        # SQLite database (auto-created)
+│   ├── 📈 progress_display.py        # Progress visualization
+│   └── 🎛️ sidebar.py                 # Configuration sidebar
+└── 📂 assets/
+    └── 🗃️ research_history.db        # SQLite database (auto-created)
 ```
 
-## 🔧 Troubleshooting
+### 🏗️ System Components
 
-### Common Issues
+| Component | Purpose | Technology |
+|-----------|---------|------------|
+| **Frontend** | User interface | Streamlit |
+| **Research Engine** | Core logic | LangGraph |
+| **LLM Integration** | AI processing | Ollama/LMStudio |
+| **Vector Store** | Embeddings | Sentence Transformers |
+| **Search APIs** | Web research | Multiple providers |
 
-1. **LLM Connection Failed**
-   ```bash
-   # Check if Ollama is running
-   ollama list
-   
-   # Restart Ollama
-   ollama serve
-   ```
+</details>
 
-2. **Module Import Errors**
-   ```bash
-   # Reinstall dependencies
-   pip install -r requirements.txt --force-reinstall
-   ```
+---
 
-3. **Slow Research**
-   - Reduce research depth in sidebar
-   - Use lighter LLM models
-   - Disable "Fetch Full Page Content"
+<details>
+<summary><h2>🔧 Troubleshooting</h2></summary>
 
-4. **Memory Issues**
-   - Use smaller embedding models
-   - Reduce research loops
-   - Clear old research sessions
+### ❗ Common Issues
 
-### Performance Optimization
+<details>
+<summary><strong>🔌 LLM Connection Failed</strong></summary>
 
-- **Faster Models**: Use smaller LLM models like `gemma3:2b`
-- **Embedding Models**: Use `all-MiniLM-L6-v2` for speed
-- **Search Settings**: Disable full page content for faster searches
-- **Research Depth**: Start with 2-3 loops, increase as needed
+```bash
+# Check if Ollama is running
+ollama list
+
+# Restart Ollama
+ollama serve
+```
+
+**Solution**: Ensure Ollama service is running and accessible on the configured port.
+
+</details>
+
+<details>
+<summary><strong>📦 Module Import Errors</strong></summary>
+
+```bash
+# Reinstall dependencies
+pip install -r requirements.txt --force-reinstall
+```
+
+**Solution**: Clean reinstall of all Python dependencies.
+
+</details>
+
+<details>
+<summary><strong>🐌 Slow Research Performance</strong></summary>
+
+**Quick Fixes**:
+- Reduce research depth in sidebar
+- Use lighter LLM models
+- Disable "Fetch Full Page Content"
+
+</details>
+
+<details>
+<summary><strong>💾 Memory Issues</strong></summary>
+
+**Optimization Steps**:
+- Use smaller embedding models
+- Reduce research loops
+- Clear old research sessions
+
+</details>
+
+### ⚡ Performance Optimization
+
+| Optimization | Recommendation | Impact |
+|--------------|----------------|---------|
+| **Model Size** | Use `gemma3:2b` instead of larger models | 🚀 Faster |
+| **Embeddings** | Use `all-MiniLM-L6-v2` | 🚀 Faster |
+| **Search Settings** | Disable full page content | 🚀 Faster |
+| **Research Depth** | Start with 2-3 loops | ⚖️ Balanced |
+
+</details>
+
+---
+
+<details>
+<summary><h2>🚀 Recent Updates</h2></summary>
+
+### ✨ Latest Enhancements
+- 🔧 Enhanced research capabilities
+- ⚡ Improved performance and reliability
+- 🎨 Better user interface design
+- 🔍 Advanced search functionality
+
+### 📈 Performance Improvements
+- Faster LLM response times
+- Optimized vector embeddings
+- Reduced memory usage
+- Better error handling
+
+</details>
+
+---
+
+<div align="center">
 
 **Happy Researching! 🔬✨**
 
-<!-- Updated documentation -->
+---
 
-<!-- Updated documentation -->
+*Built with ❤️ using Streamlit, LangGraph, and Local LLMs*
 
-<!-- Updated documentation -->
-
-<!-- Documentation enhanced -->
-
-<!-- Documentation enhanced -->
-
-<!-- Documentation enhanced -->
-
-## 🚀 Recent Updates
-- Enhanced research capabilities
-- Improved performance and reliability
-
-## 🚀 Recent Updates
-- Enhanced research capabilities
-- Improved performance and reliability
+</div>
