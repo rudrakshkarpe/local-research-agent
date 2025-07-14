@@ -2,7 +2,7 @@
 
 <div align="center">
 
-**A powerful local research platform with AI-driven deep research capabilities**
+**A local deep research agentic platform with Ollama and Local LLMs**
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)](https://streamlit.io)
