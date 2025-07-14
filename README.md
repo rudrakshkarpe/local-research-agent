@@ -13,6 +13,10 @@
 <details>
 <summary><strong>✨ Features</strong></summary>
 
+### User Interface: 
+
+![UI](assets/image.png)
+
 ### 🔍 Core Research Capabilities
 - **Deep Research Workflow**: Multi-loop research process with query generation, web search, summarization, and reflection
 - **Local LLM Integration**: Works with Ollama and LMStudio for complete privacy
