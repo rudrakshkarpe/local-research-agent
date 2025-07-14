@@ -180,7 +180,6 @@ EMBEDDING_MODEL="all-MiniLM-L6-v2"
 
 </details>
 
----
 
 <details>
 <summary><strong>📊 Architecture</strong></summary>
@@ -225,7 +224,6 @@ streamlit-deep-researcher/
 
 </details>
 
----
 
 <details>
 <summary><strong>🔧 Troubleshooting</strong></summary>
@@ -309,7 +307,7 @@ pip install -r requirements.txt --force-reinstall
 
 </details>
 
----
+
 
 <div align="center">
 
