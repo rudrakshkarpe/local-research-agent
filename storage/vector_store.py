@@ -290,18 +290,3 @@ def create_vector_store(config: ResearchConfig) -> VectorStore:
     """Create a vector store instance."""
     return VectorStore(config)
 
-# Enhanced functionality
-
-# Enhanced functionality
-
-# Enhanced functionality
-
-# Enhanced functionality
-
-# Enhanced functionality
-
-# Enhanced functionality
-
-# Performance and reliability improvements
-
-# Performance and reliability improvements

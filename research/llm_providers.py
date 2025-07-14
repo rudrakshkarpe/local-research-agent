@@ -106,12 +106,3 @@ def test_llm_connection(config: ResearchConfig) -> Dict[str, Any]:
             "error_type": type(e).__name__
         }
 
-# Enhanced functionality
-
-# Enhanced functionality
-
-# Enhanced functionality
-
-# Enhanced functionality
-
-# Performance and reliability improvements

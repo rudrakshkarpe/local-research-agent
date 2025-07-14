@@ -339,27 +339,3 @@ class StreamlitResearchGraph:
 def create_research_graph(config: ResearchConfig, progress_callback: Optional[Callable] = None) -> StreamlitResearchGraph:
     """Create a research graph instance."""
     return StreamlitResearchGraph(config, progress_callback)
-
-# Enhanced functionality
-
-# Enhanced functionality
-
-# Enhanced functionality
-
-# Enhanced functionality
-
-# Enhanced functionality
-
-# Enhanced functionality
-
-# Enhanced functionality
-
-# Enhanced functionality
-
-# Enhanced functionality
-
-# Performance and reliability improvements
-
-# Performance and reliability improvements
-
-# Performance and reliability improvements
