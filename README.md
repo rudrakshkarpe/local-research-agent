@@ -10,10 +10,8 @@
 
 </div>
 
----
-
 <details>
-<summary><h2>✨ Features</h2></summary>
+<summary><strong>✨ Features</strong></summary>
 
 ### 🔍 Core Research Capabilities
 - **Deep Research Workflow**: Multi-loop research process with query generation, web search, summarization, and reflection
@@ -21,8 +19,6 @@
 - **Multiple Search APIs**: DuckDuckGo, Tavily, Perplexity, etc.
 - **Real-time Progress**: Track progress in realtime step-by-step visualization
 - **Smart Source Management**: Automatic deduplication and relevance scoring
-
-### 🧠 Intelligent Features
 - **Vector Embeddings**: Semantic search across research history using sentence transformers
 - **Research History**: Persistent storage with similarity search
 - **Configuration Management**: Easy LLM and search API configuration
@@ -30,10 +26,10 @@
 
 </details>
 
----
+
 
 <details>
-<summary><h2>🚀 Quick Start</h2></summary>
+<summary><strong>🚀 Quick Start</strong></summary>
 
 ### 📋 Prerequisites
 
@@ -69,10 +65,10 @@ streamlit run app.py
 
 </details>
 
----
+
 
 <details>
-<summary><h2>⚙️ Configuration</h2></summary>
+<summary><strong>⚙️ Configuration</strong></summary>
 
 ### 🦙 LLM Setup
 
@@ -133,10 +129,10 @@ EMBEDDING_MODEL="all-MiniLM-L6-v2"
 
 </details>
 
----
+
 
 <details>
-<summary><h2>🎯 Usage Guide</h2></summary>
+<summary><strong>🎯 Usage Guide</strong></summary>
 
 ### 🚀 Starting Research
 
@@ -187,7 +183,7 @@ EMBEDDING_MODEL="all-MiniLM-L6-v2"
 ---
 
 <details>
-<summary><h2>📊 Architecture</h2></summary>
+<summary><strong>📊 Architecture</strong></summary>
 
 ### 📁 Project Structure
 
@@ -232,7 +228,7 @@ streamlit-deep-researcher/
 ---
 
 <details>
-<summary><h2>🔧 Troubleshooting</h2></summary>
+<summary><strong>🔧 Troubleshooting</strong></summary>
 
 ### ❗ Common Issues
 
@@ -294,10 +290,10 @@ pip install -r requirements.txt --force-reinstall
 
 </details>
 
----
+
 
 <details>
-<summary><h2>🚀 Recent Updates</h2></summary>
+<summary><strong>🚀 Recent Updates</strong></summary>
 
 ### ✨ Latest Enhancements
 - 🔧 Enhanced research capabilities
@@ -318,9 +314,5 @@ pip install -r requirements.txt --force-reinstall
 <div align="center">
 
 **Happy Researching! 🔬✨**
-
----
-
-*Built with ❤️ using Streamlit, LangGraph, and Local LLMs*
 
 </div>
